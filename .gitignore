@@ -1,0 +1,8 @@
+# IDEs
+.vscode
+
+# Node.js
+node_modules
+
+# Build artifacts
+lib
