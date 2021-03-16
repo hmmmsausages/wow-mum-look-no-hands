@@ -14,7 +14,8 @@ class Message {
 }
 
 const DEFAULT_LOGGER: (message: Message) => void = message => {
-  let consoleLogFunction: CallableFunction = console.info
+  let consoleLogFunction: CallableFunction
+
   switch (message.logLevel) {
     case LogLevel.DEBUG: consoleLogFunction = console.debug
       break
