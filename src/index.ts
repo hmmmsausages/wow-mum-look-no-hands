@@ -1,3 +1,5 @@
-export function Greeter (name: string): string {
-  return `Hello ${name}`
+import Engine from './Engine'
+
+export {
+  Engine
 }
