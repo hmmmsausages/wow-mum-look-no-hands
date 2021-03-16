@@ -1,3 +1,5 @@
+import sleep from './utils/sleep'
+
 enum LogLevel {
   ERROR = 'error',
   WARN = 'warn',
@@ -7,6 +9,7 @@ enum LogLevel {
 class Message {
   message: string = 'Starting up...'
   logLevel: LogLevel = LogLevel.INFO
+  delayInMS: number = 250
 
   constructor (message?: Partial<Message>) {
     Object.assign(this, message)
@@ -38,10 +41,11 @@ class Engine {
     Object.assign(this, engine)
   }
 
-  startUp (): void {
-    this.messages.forEach(message => {
+  async startUp (): Promise<void> {
+    for (const message of this.messages) {
+      await sleep(message.delayInMS)
       this.logger(message)
-    })
+    }
   }
 }
 
