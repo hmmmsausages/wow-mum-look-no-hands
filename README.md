@@ -6,7 +6,7 @@
 
 ## What is this?
 
-### So here we are...**
+### So here we are...
 
 You've spent countless nights and days developing your API.
 
@@ -87,7 +87,7 @@ const theatre = new Theatre({
   messages: [
     {
       logLevel: 'ERROR', // DEBUG | INFO | WARN | ERROR
-      message: '⚙️ Defragment Windows 95 C:\\ drive. This might take a while ...', 
+      message: '⚙️ Defragment Windows 95 C:\ drive. This might take a while ...', 
       delayInMS: 500 // delay in milliseconds before above message is displayed
     },
     new Message('🙈 Discovered year 2020. Aborting unnecessary Windows 95 operations.'),
