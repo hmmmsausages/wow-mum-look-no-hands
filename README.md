@@ -58,6 +58,8 @@ The most underwhelming 2 seconds of your career ...
 
 With `wow-mum-look-no-hands` you can give your app's start-up logs that little extra panache.
 
+![Example app launch without this library](./images/with-this-lib.gif)
+
 Impress your boss, impress your mum, impress your colleagues, impress everyone that don't have the slightest clue what your job is. Impress everyone you shouldn't need to impress. Get the promotion, get the bonus, retire to the south of France, live a life of luxury, start collecting art. Confess on your death bed that the BIG LAUNCH was just a show.
 
 BUT WHAT A SHOW IT WAS !
@@ -150,6 +152,8 @@ The chances are good my friend. This project is published under the MIT License.
 
 Very sorry to hear that. Unfortunately I'm not willing accept any responsiblity and don't provide any warranty for this project.
 
+### Isn't this app just a simple sequential logger, with made up delays and meaningless log messages?
+Yes
 ### Is this project a joke?
 
 Yes
