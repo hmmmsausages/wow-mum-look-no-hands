@@ -46,7 +46,7 @@ You open up your app's logs for the whole company to see.
 
 &nbsp;
 
-![Example app launch without this library](./images/without-this-lib.gif)
+![Example app launch without this library](https://user-images.githubusercontent.com/10978490/111663786-0d0d7100-8809-11eb-8e7b-4313a90a7d47.gif)
 
 &nbsp;
 
@@ -58,7 +58,7 @@ The most underwhelming 2 seconds of your career ...
 
 With `wow-mum-look-no-hands` you can give your app's start-up logs that little extra panache.
 
-![Example app launch without this library](./images/with-this-lib.gif)
+![Example app launch with this library](https://user-images.githubusercontent.com/10978490/111663768-07b02680-8809-11eb-93fa-4101035e38a8.gif))
 
 Impress your boss, impress your mum, impress your colleagues, impress everyone that don't have the slightest clue what your job is. Impress everyone you shouldn't need to impress. Get the promotion, get the bonus, retire to the south of France, live a life of luxury, start collecting art. Confess on your death bed that the BIG LAUNCH was just a show.
 
