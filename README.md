@@ -1,5 +1,7 @@
 # wow-mum-look-no-hands
 
+[![Build & Test](https://github.com/hmmmsausages/wow-mum-look-no-hands/actions/workflows/build-and-test.yml/badge.svg?branch=main)](https://github.com/hmmmsausages/wow-mum-look-no-hands/actions/workflows/build-and-test.yml)
+
 * [What is this?](#what-is-this)
 * [How do I use it?](#how-do-i-use-it)
 * [FAQ](#faq)
