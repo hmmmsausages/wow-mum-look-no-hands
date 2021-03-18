@@ -1,6 +1,12 @@
 # wow-mum-look-no-hands
 
-## So here we are...
+* [What is this?](#what-is-this)
+* [How do I use it?](#how-do-i-use-it)
+* [FAQ](#faq)
+
+# What is this?
+
+### So here we are...**
 
 You've spent countless nights and days developing your API.
 
@@ -46,7 +52,7 @@ The most underwhelming 2 seconds of your career ...
 
 &nbsp;
 
-## It doesn't need to be this way!
+### It doesn't need to be this way!
 
 With `wow-mum-look-no-hands` you can give your app's start-up logs that little extra panache.
 
@@ -54,7 +60,7 @@ Impress your boss, impress your mum, impress your colleagues, impress everyone t
 
 BUT WHAT A SHOW IT WAS !
 
-## How to use it ?
+## How do I use it ?
 
 ### Install
 
