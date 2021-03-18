@@ -1,6 +1,6 @@
 # wow-mum-look-no-hands
 
-## So you've done it?
+## So here we are...
 
 You've spent countless nights and days developing your API.
 
@@ -34,9 +34,7 @@ You open up your app's logs for the whole company to see.
 
 &nbsp;
 
-&nbsp;
-
-**And then you'll present them with this ...**
+**And then you present them with this ...**
 
 &nbsp;
 
@@ -44,18 +42,17 @@ You open up your app's logs for the whole company to see.
 
 &nbsp;
 
-&nbsp;
-
 The most underwhelming 2 seconds of your career ...
+
+&nbsp;
 
 ## It doesn't need to be this way!
 
 With `wow-mum-look-no-hands` you can give your app's start-up logs that little extra panache.
 
-Impress your boss, impress your mum, impress your colleagues, impress everyone that don't have the slightest clue what your job is. Impress everyone you shouldn't need to impress. Get the promotion, get the bonus, retire to the south of France, live a Life of luxury, start collecting antiques. Confess on your death bed that the BIG LAUNCH was just a show. 
+Impress your boss, impress your mum, impress your colleagues, impress everyone that don't have the slightest clue what your job is. Impress everyone you shouldn't need to impress. Get the promotion, get the bonus, retire to the south of France, live a life of luxury, start collecting art. Confess on your death bed that the BIG LAUNCH was just a show.
 
 BUT WHAT A SHOW IT WAS !
-
 
 ## How to use it ?
 
