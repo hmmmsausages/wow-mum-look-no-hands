@@ -4,7 +4,7 @@
 * [How do I use it?](#how-do-i-use-it)
 * [FAQ](#faq)
 
-# What is this?
+## What is this?
 
 ### So here we are...**
 
@@ -60,7 +60,7 @@ Impress your boss, impress your mum, impress your colleagues, impress everyone t
 
 BUT WHAT A SHOW IT WAS !
 
-## How do I use it ?
+## How do I use it?
 
 ### Install
 
