@@ -64,7 +64,8 @@ BUT WHAT A SHOW IT WAS !
 
 ### Install
 
-*Note*: This app should work with Node 10+
+This library is available via the public npm registry and should work with any Node version that
+has very basic ES6 support (e.g. Node 10+ should be fine).
 
 ```bash
 # If using NPM
@@ -76,6 +77,10 @@ yarn add wow-mum-look-no-hands
 
 ### Run
 
+It makes sense to run `wow-mum-look-no-hands` as part of your app start up script.
+The `showtime()` method returns a `Promise` that resolves as soon all messages, including their specified delay have been logged.
+By default, the library is going to log via the `console` functions (i.e. `console.debug`, `console.info`, `console.warn` and `console.error`, which correspond to the specified `logLevel` properties)
+
 ```js
 // ES6 or TypeScript Import
 import { Theatre, Message } from 'wow-mum-look-no-hands'
@@ -86,9 +91,9 @@ const { Theatre, Message } = require('wow-mum-look-no-hands')
 const theatre = new Theatre({
   messages: [
     {
-      logLevel: 'ERROR', // DEBUG | INFO | WARN | ERROR
+      logLevel: 'ERROR', // DEBUG | INFO | WARN | ERROR - DEFAULT: INFO
       message: '⚙️ Defragment Windows 95 C:\ drive. This might take a while ...', 
-      delayInMS: 500 // delay in milliseconds before above message is displayed
+      delayInMS: 500 // delay in milliseconds before above message is displayed - DEFALT: 250
     },
     new Message('🙈 Discovered year 2020. Aborting unnecessary Windows 95 operations.'),
     new Message({
@@ -99,10 +104,34 @@ const theatre = new Theatre({
     // further messages for the Show
     // ...
   ]
+  //,
+  //logger: (message: Message) => void  // defaults to console - implement if other logging library is needed (see below for example)
 })
 
 // When ready, call showtime() to start the show
 theatre.showtime() // Returns Promise, that resolves when the show is over
+```
+
+If you want to log via a different logging library and not via the `console` functions, then you can provide a `logger` property to the `Theatre` configuration like this:
+
+```js
+const theatre = new Theatre({
+  messages: [
+    // see above for examples
+  ],
+  logger: message => {
+    const { logLevel, delayInMS, message } = message // message argument contains all message properties
+
+    // do what ever your logger requires
+    // Example: pseudo alternative logger call
+    myLog.log({
+      level: logLevel,
+      message: message
+    })
+
+    // return is void / not required
+  }
+})
 ```
 
 ## FAQ
