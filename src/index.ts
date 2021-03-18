@@ -1,5 +1,9 @@
-import Engine from './Engine'
+import Theatre from './Theatre'
+import Message from './Message/Message'
+import LogLevel from './Message/LogLevel'
 
 export {
-  Engine
+  Theatre,
+  Message,
+  LogLevel
 }

@@ -16,6 +16,6 @@ describe('sleep', () => {
     await sleepPromise
 
     expect(setTimeout).toHaveBeenCalledTimes(1)
-    expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 100)
+    expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 250)
   })
 })

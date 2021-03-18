@@ -5,6 +5,6 @@
  * @param ms Number of milliseconds until sleep resolves promise
  * @returns Promise that resolves after specified milliseconds
  */
-const sleep: (ms?: number) => Promise<void> = async (ms = 100) => await new Promise(resolve => setTimeout(resolve, ms))
+const sleep: (ms?: number) => Promise<void> = async (ms = 250) => await new Promise(resolve => setTimeout(resolve, ms))
 
 export default sleep
