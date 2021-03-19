@@ -13,7 +13,7 @@ class Message {
 
   /**
    * Creates a Message instance based on a message string or MinimumMessage object
-   * @param message message string or object with message property and optional further instance properties
+   * @param {MinimumMessage | string} message message string or object with message property and optional further instance properties
    */
   constructor (message: MinimumMessage | string) {
     if (typeof message === 'string') {
