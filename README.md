@@ -1,9 +1,7 @@
 # 🤷‍♂️ wow-mum-look-no-hands
 
-[![Build & Test](https://github.com/hmmmsausages/wow-mum-look-no-hands/actions/workflows/build-and-test.yml/badge.svg?branch=main)](https://github.com/hmmmsausages/wow-mum-look-no-hands/actions/workflows/build-and-test.yml)
-
+[![Build & Test](https://github.com/hmmmsausages/wow-mum-look-no-hands/actions/workflows/build-and-test.yml/badge.svg?branch=main)](https://github.com/hmmmsausages/wow-mum-look-no-hands/actions/workflows/build-and-test.yml) 
 [![NPM published version](https://img.shields.io/npm/v/wow-mum-look-no-hands)](https://www.npmjs.com/package/wow-mum-look-no-hands)
-
 [![License](https://img.shields.io/npm/l/wow-mum-look-no-hands)](https://www.npmjs.com/package/wow-mum-look-no-hands)
 
 * [What is this?](#what-is-this)
