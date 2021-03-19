@@ -77,7 +77,7 @@ has very basic ES6 support (e.g. Node 10+ should be fine).
 # If using NPM
 npm install wow-mum-look-no-hands
 
-# I using Yarn
+# If using Yarn
 yarn add wow-mum-look-no-hands
 ```
 
