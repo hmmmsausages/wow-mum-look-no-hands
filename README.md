@@ -142,7 +142,7 @@ const theatre = new Theatre({
 
 ### I've got a great idea for this library and/or I've found a bug. What do I do?
 
-Contributions and error reports are always welcome. Please don't hesitate to raise an issue or a pull request against this GitHub issue
+Contributions and error reports are always welcome. Please don't hesitate to raise an [issue](https://github.com/hmmmsausages/wow-mum-look-no-hands/issues) or a [pull request](https://github.com/hmmmsausages/wow-mum-look-no-hands/pulls) against this GitHub issue
 
 ### What are the chances that a great piece of software like this is published under a non-restrictive open source license?
 
@@ -153,6 +153,7 @@ The chances are good my friend. This project is published under the MIT License.
 Very sorry to hear that. Unfortunately I'm not willing accept any responsiblity and don't provide any warranty for this project.
 
 ### Isn't this app just a simple sequential logger, with made up delays and meaningless log messages?
+
 Yes
 ### Is this project a joke?
 
