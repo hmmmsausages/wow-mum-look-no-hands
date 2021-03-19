@@ -1,6 +1,6 @@
 {
   "name": "wow-mum-look-no-hands",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Impress your boss and mum with start-up logs like a real grown-up API",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
